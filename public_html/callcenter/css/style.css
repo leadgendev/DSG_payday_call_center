@@ -1,0 +1,168 @@
+
+body { font: normal 12px/1.5 Arial, Helvetica, sans-serif; }
+	
+
+/* Text Styles */
+
+h1 {
+	font-size: 20px;
+	color: #235dd4;
+	margin-bottom: 24px;
+}
+
+h2 {
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+ol span, ol label {
+	display: block;	
+}
+
+ol span {
+	font-size: 18px;
+	color: #333;
+	font-weight: bold;
+	margin: 15px 0 12px 0;	
+}
+
+.objection {
+	margin-bottom: 6px;
+	font-weight: bold;
+}
+
+.or_sidebar h3 { 
+	font-size: 16px; 
+	color: #235dd4; 
+	display: inline-block; 
+	padding: 0 8px; 
+	background: #FFF; 
+	position: absolute; 
+	top: 25px; 
+}
+
+.lf_re-verify {
+	color: #d31212;
+}
+	
+
+/* Layout */
+
+#cc_wrapper {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 20px 0 35px;
+}
+
+.cc_step { 
+	padding: 20px 0;
+	min-height: 300px; 
+	position: relative; 
+	border-top: 1px dotted #d5d5ca; 
+	overflow: hidden; 
+}
+
+.cc_step ol { 
+	width: 600px; 
+	float: left; 
+}
+
+.cc_step li { 
+	margin: 0 0 20px 0; 
+}
+
+.or_sidebar { 
+	width: 310px; 
+	padding: 30px 20px 0;  
+	margin-top: 15px; 
+	float: right; 
+	border: 1px solid #d5d5ca; 
+	border-radius: 6px; 
+}
+
+.checkImage {
+
+}
+
+/* Form */
+
+label {
+	margin: 15px 0 6px;
+}
+
+input, select {
+	border: 1px solid #598fbf;
+	padding: 4px 2px;
+}
+
+input.yes {
+	color: #FFF;
+	margin-right: 6px;
+	padding: 6px 10px;
+	background: #1bc969;
+	border-color: #17b45d;
+}
+
+input.no {
+	color: #FFF;
+	padding: 6px 10px;
+	background: #d31212;	
+	border-color: #b40e0e;
+}
+
+.lf_app_submit {
+	color: #FFF;
+	font-weight: bold;
+	padding: 0 !important;
+}
+
+
+/* calendars */
+#lf_pay_calendar {
+    color:#40637e;
+    font-size:small;
+	margin: 12px 0 0 8px;
+	position: relative;
+	width: 350px;
+	}
+	
+#lf_pay_calendar input[type="button"] {
+	margin: 12px 10px 0;
+	}
+	
+#lf_pay_calendar caption {
+	font-weight: bold;
+	}
+.lf_cal_table {
+    border:solid 1px #3e6498;
+	margin: 5px 0 0 10px;
+	background: #fff;
+	width: 80px;
+	}
+.lf_cal_table th {
+    color:#fff;
+    background-color:#3e6498;
+	}
+.lf_cal_table td {
+    border:solid 1px #3e6498;
+    height: 18px;
+    width: 18px;
+    text-align:center;
+	font-size: 12px;
+	padding: 2px;
+	}
+.lf_cal_selected {
+    color: #fff;
+    font-weight:bold;
+    background-color:#97b1c5;
+	}
+.lf_cal_td_dis {
+    color:#ccc;
+	}
+.lf_cal_td_hover {
+    background-color: #3e6498;
+    cursor:pointer;
+	color: #fff;
+	}
+.lf_error_control{
+    background-color: #F5615E;

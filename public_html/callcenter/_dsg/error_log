@@ -1,0 +1,10 @@
+[13-Mar-2013 16:37:58] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'leadsan_dbuser'@'localhost' (using password: YES)' in /home/leadsand/public_html/_callcenter/_include/database.php:19
+Stack trace:
+#0 /home/leadsand/public_html/_callcenter/_include/database.php(19): PDO->__construct('mysql:host=loca...', 'leadsan_dbuser', 'd$4b6}!rdOTz')
+#1 /home/leadsand/public_html/_callcenter/_include/callcenter_insert_application.php(8): open_db()
+#2 /home/leadsand/public_html/_callcenter/_include/callcenter_main.php(13): callcenter_insert_application()
+#3 /home/leadsand/public_html/_callcenter/_dsg/index.php(10): require_once('/home/leadsand/...')
+#4 {main}
+  thrown in /home/leadsand/public_html/_callcenter/_include/database.php on line 19
+[13-Mar-2013 23:07:31] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/leadsand/public_html/_callcenter/_include/callcenter_insert_application.php on line 59
+[13-Mar-2013 23:22:57] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/leadsand/public_html/_callcenter/_include/callcenter_insert_application.php on line 60
